@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5501/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to my Terrarium</title>
+    <link rel="stylesheet" href="./Welcome to my Terrarium_files/style.css">
+    <script src="./Welcome to my Terrarium_files/script.js.download" defer=""></script>
+  </head>
+  <body>
+    <h1>My Terrarium</h1>
+    <div id="page">
+      <div id="left-container" class="container">
+        <div class="plant-holder">
+          <img class="plant" alt="plant" id="plant1" src="./Welcome to my Terrarium_files/plant1.png">
+        </div>
+        <div class="plant-holder">
+          <img class="plant" alt="plant" id="plant2" src="./Welcome to my Terrarium_files/plant2.png">
+        </div>
+        <div class="plant-holder">
+          <img class="plant" alt="plant" id="plant3" src="./Welcome to my Terrarium_files/plant3.png">
+        </div>
+        <div class="plant-holder">
+          <img class="plant" alt="plant" id="plant4" src="./Welcome to my Terrarium_files/plant4.png">
+        </div>
+        <div class="plant-holder">
+          <img class="plant" alt="plant" id="plant5" src="./Welcome to my Terrarium_files/plant5.png">
+        </div>
+        <div class="plant-holder">
+          <img class="plant" alt="plant" id="plant6" src="./Welcome to my Terrarium_files/plant6.png">
+        </div>
+        <div class="plant-holder">
+          <img class="plant" alt="plant" id="plant7" src="./Welcome to my Terrarium_files/plant7.png">
+        </div>
+      </div>
+      <div id="right-container" class="container">
+        <div class="plant-holder">
+          <img class="plant" alt="plant" id="plant8" src="./Welcome to my Terrarium_files/plant8.png">
+        </div>
+        <div class="plant-holder">
+          <img class="plant" alt="plant" id="plant9" src="./Welcome to my Terrarium_files/plant9.png">
+        </div>
+        <div class="plant-holder">
+          <img class="plant" alt="plant" id="plant10" src="./Welcome to my Terrarium_files/plant10.png">
+        </div>
+        <div class="plant-holder">
+          <img class="plant" alt="plant" id="plant11" src="./Welcome to my Terrarium_files/plant11.png">
+        </div>
+        <div class="plant-holder">
+          <img class="plant" alt="plant" id="plant12" src="./Welcome to my Terrarium_files/plant12.png">
+        </div>
+        <div class="plant-holder">
+          <img class="plant" alt="plant" id="plant13" src="./Welcome to my Terrarium_files/plant13.png">
+        </div>
+        <div class="plant-holder">
+          <img class="plant" alt="plant" id="plant14" src="./Welcome to my Terrarium_files/plant14.png">
+        </div>
+      </div>
+      <div id="terrarium">
+        <div class="jar-top"></div>
+        <div class="jar-walls">
+          <div class="jar-glossy-long"></div>
+          <div class="jar-glossy-short"></div>
+        </div>
+        <div class="dirt"></div>
+        <div class="jar-bottom"></div>
+      </div>
+    </div>
+  <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
