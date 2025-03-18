@@ -2,7 +2,9 @@
 @import url('https://fonts.cdnfonts.com/css/poppins');
 
 body{
-    background-image: url();
+    background-image: url(images/download.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .banner
 {
